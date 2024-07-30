@@ -1,0 +1,133 @@
+.card {
+  border-radius: 15px;
+  background-color: white;
+  min-width: 768px;
+}
+
+.cardbody-color {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.btn-color {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-color:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.text-danger {
+  font-size: 0.875rem;
+}
+
+
+
+.shadow-lg {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.mt-5 {
+  margin-top: 3rem !important;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem !important;
+}
+
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
+
+.outer {
+  background-color: #e0dedc;;
+  padding: 10px 0;
+  height: 400PX;
+  margin-right: 30px;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.btn-submit {
+  background-color: black;
+  border-color: black;
+  color: #ffffff;
+  padding: 12px 32px !important;
+  background-image: none;
+
+
+}
+
+.btn-submit:hover {
+  background-color: #ff5263;
+  border-color: #ed4758;
+}
+
+.text-danger {
+  font-size: 0.875rem;
+}
+
+.form-label {
+  font-weight: 450;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: start;
+  font-size: 17px;
+}
+
+.header {
+  text-align: start;
+  font-size: 30px;
+  line-height: 150%;
+  font-weight: 450;
+}
+
+.para {
+  font-size: 16px;
+  font-family: "TWK Lausanne", "Helvetica Neue", "Helvetica", sans-serif;
+  font-weight: 350;
+  line-height: 80%;
+  letter-spacing: 0.02em;
+  text-align: start;
+}
+/* .input-s{
+  background-color: #FFFFFF;
+  border: 2px solid #E0E6E8;
+  border-radius: 3px;
+  height: 50px;
+  line-height: normal;
+  margin: 0;
+  padding: 0 0 0 16px;
+  transition: border 150ms;
+  width: 100%;
+}
+.form-select{
+  background-color: #FFFFFF;
+  border: 2px solid #E0E6E8;
+  border-radius: 3px;
+  height: 50px;
+  line-height: normal;
+  margin: 0;
+  padding: 0 0 0 16px;
+  transition: border 150ms;
+  width: 100%;
+
+} */
+
+.label-footer{
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: start;
+  font-size: 16px;
+  box-sizing: inherit;
+  color: #6e6e6e;
+  font-family: inherit;
+  line-height: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+}
