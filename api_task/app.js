@@ -11,7 +11,7 @@ app.use(cors());
 app.use('/api', router);
 
 
-mongoose.connect('mongodb://localhost:27017/CONTACTUS_SERVICE', {
+mongoose.connect('mongodb+srv://Cantas:BF!S#s-F4irygN7@cluster0.gkkofhc.mongodb.net/Contactus', {
     useNewUrlParser: true,
     serverSelectionTimeoutMS: 30000, // Set a higher timeout value (e.g., 30 seconds) 
 });
