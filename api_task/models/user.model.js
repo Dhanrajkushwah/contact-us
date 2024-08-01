@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+
 const userSchema = mongoose.Schema({
     firstName: {
         type: String,
@@ -9,7 +10,7 @@ const userSchema = mongoose.Schema({
     phoneNumber: {
         type: String,
         required: true,
-        minlength: 10,  
+        minlength: 10,
         maxlength: 13    
     },
     country: {
@@ -18,16 +19,9 @@ const userSchema = mongoose.Schema({
     discussionTopic: {
         type: String,
     }
+}, {
+    timestamps: { createdAt: "created_at", updatedAt: "updated_at" }
+});
 
-
-},
-    {
-        timestamps: { createdAt: "created_at", updatedAt: "updated_at" }
-    });
 const userData = mongoose.model('user', userSchema);
 module.exports = userData;
-
-
-
-
-
